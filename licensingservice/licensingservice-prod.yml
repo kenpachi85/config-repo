@@ -1,4 +1,4 @@
-tracer.property: " I AM THE PROD "
+tracer.property: " I AM THE PROD ON GIT "
 spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform: "postgres"
 spring.jpa.show-sql: "true"
