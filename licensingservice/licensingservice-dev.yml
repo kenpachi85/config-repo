@@ -1,0 +1,13 @@
+tracer.property: " I AM THE DEV "
+spring.jpa.database: "POSTGRESQL"
+spring.datasource.platform: "postgres"
+spring.jpa.show-sql: "true"
+spring.database.driverClassName: "org.postgresql.Driver"
+spring.datasource.url: "jdbc:postgresql://localhost:5432/eagle_eye_local"
+spring.datasource.username: "postgres"
+#spring.datasource.password: "admin"
+spring.datasource.password: "{cipher}
+    640991764419fe14e4908163f6da4002fc15ef0d853b1e7b4b805587841a6dc7"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
